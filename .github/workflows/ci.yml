@@ -1,17 +1,3 @@
-
----
-
-### 5. `ci.yml` (w katalogu `.github/workflows/`)
-
-Poniżej przykład najprostszego workflow, który:
-
-1. Uruchamia się przy każdym `push` i `pull_request` na branchu `main`.
-2. Klonuje repozytorium na maszynie wirtualnej.
-3. Instaluje Pythona 3.11 (możesz zmienić wersję na inną).
-4. Instaluje zależności z `requirements.txt`.
-5. Uruchamia testy wykorzystując `unittest`.
-
-```yaml
 name: CI
 
 on:
